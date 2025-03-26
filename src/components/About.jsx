@@ -1,0 +1,58 @@
+import { Globe, Medal, Trophy, UserRoundPlus } from "lucide-react";
+import React from "react";
+
+const About = () => {
+    return (
+        <section id="about" className="text-black py-10 font-stem">
+            <div className="container mx-auto px-6">
+                <h2
+                    data-aos="fade-up"
+                    className="text-3xl lg:text-5xl font-medium text-center mb-8 lg:mb-20 bg-green py-10 rounded-3xl"
+                >
+                    О КОМПАНИИ «Межрегионтранс»
+                </h2>
+                <div
+                    data-aos="fade-up"
+                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-xl"
+                >
+                    <div>
+                        <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
+                            <Medal size={100} />
+                        </div>
+                        <p className="mt-4  font-light">
+                            на рынке логистических услуг Нижегородской области
+                        </p>
+                    </div>
+                    <div>
+                        <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
+                            <Trophy size={100} />
+                        </div>
+                        <p className="mt-4  font-light">
+                            входит в ТОП100 лучших перевозчиков России
+                        </p>
+                    </div>
+                    <div>
+                        <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
+                            <UserRoundPlus size={100} />
+                        </div>
+
+                        <p className="mt-4  font-light">
+                            1+ млрд тонн перевезенных грузов
+                        </p>
+                    </div>
+                    <div>
+                        <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
+                            <Globe size={100} />
+                        </div>
+
+                        <p className="mt-4  font-light">
+                            география перевозок - все регионы России
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default About;
