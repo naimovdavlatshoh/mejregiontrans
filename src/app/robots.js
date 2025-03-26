@@ -5,6 +5,6 @@ export default function robots() {
             allow: "/",
             disallow: "/private/",
         },
-        sitemap: "https://mejregiontrans.vercel.app/",
+        sitemap: "https://mejregiontrans.vercel.app/sitemap.xml",
     };
 }
