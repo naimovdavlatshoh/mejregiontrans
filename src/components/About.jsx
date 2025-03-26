@@ -1,6 +1,11 @@
 import { Globe, Medal, Trophy, UserRoundPlus } from "lucide-react";
 import React from "react";
 
+export const metadata = {
+    title: "«Межрегионтранс»",
+    description: "на рынке логистических услуг Нижегородской области",
+};
+
 const About = () => {
     return (
         <section id="about" className="text-black py-10 font-stem">
