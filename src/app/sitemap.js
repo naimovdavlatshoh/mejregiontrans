@@ -1,5 +1,5 @@
 export default function sitemap() {
-    const siteUrl = "https://mejregiontrans.vercel.app/";
+    const siteUrl = "https://mejregiontrans.vercel.app";
 
     return [
         {
