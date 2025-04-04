@@ -1,5 +1,7 @@
-import { Globe, Medal, Trophy, UserRoundPlus } from "lucide-react";
+import { Globe, Medal, UserRoundPlus } from "lucide-react";
+import Image from "next/image";
 import React from "react";
+import Throphy from "../assets/throphy.png";
 
 export const metadata = {
     title: "«Межрегионтранс»",
@@ -25,15 +27,20 @@ const About = () => {
                             <Medal size={100} />
                         </div>
                         <p className="mt-4  font-light">
-                            на рынке логистических услуг Нижегородской области
+                            на рынок логистических услуг города Москвы и
+                            Московской области
                         </p>
                     </div>
                     <div>
                         <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
-                            <Trophy size={100} />
+                            <Image
+                                className="h-[100px] object-contain"
+                                src={Throphy}
+                                alt="no img"
+                            />
                         </div>
                         <p className="mt-4  font-light">
-                            входит в ТОП100 лучших перевозчиков России
+                            входит в ТОП лучших перевозчиков России
                         </p>
                     </div>
                     <div>
@@ -51,7 +58,7 @@ const About = () => {
                         </div>
 
                         <p className="mt-4  font-light">
-                            география перевозок - все регионы России
+                            география перевозок - все регионы нашей страны
                         </p>
                     </div>
                 </div>

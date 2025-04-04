@@ -17,6 +17,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Geography from "@/components/Geography";
 
 export default function Home() {
     useEffect(() => {
@@ -32,6 +33,7 @@ export default function Home() {
             <About />
             <Stats />
             <Advantages />
+            <Geography />
             <TransportCompanySection />
             <TransportSection />
             <ProjectsSection />

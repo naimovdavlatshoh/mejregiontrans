@@ -3,24 +3,19 @@ import React from "react";
 const Stats = () => {
     const stats = [
         {
-            number: "6",
-            description: "филиалов в регионах России",
+            number: "4 ",
+            description: "филиала в регионах России:",
             details:
-                "Нижний Новгород – центральный офис, Москва, Челябинск, Санкт-Петербург, Волгоград, Новосибирск",
+                "г.Москва, Московская область г.Дмитров,                   г. Нефтеюганск, г. Брянск",
         },
         {
-            number: "500+",
-            description: "единиц собственной техники",
-            details: "Volvo, Scania, Sitrak",
+            number: "200+",
+            description: "единиц собственной техникии",
+            details: "и дописать марку Dongfeng",
         },
         {
-            number: "1000+",
+            number: "400+",
             description: "клиентов",
-            details: "",
-        },
-        {
-            number: "750+",
-            description: "сотрудников в штате",
             details: "",
         },
     ];
@@ -28,7 +23,7 @@ const Stats = () => {
     return (
         <section className="py-20 bg-[#bafe7e55] font-stem">
             <div className="container mx-auto px-6" data-aos="zoom-in">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center  pt-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center  pt-6">
                     {stats.map((item, index) => (
                         <div key={index} className="flex flex-col items-center">
                             <span className="text-[#89f629] text-5xl font-bold mb-5">

@@ -9,12 +9,14 @@ import Client1 from "../assets/valio.png";
 import Client2 from "../assets/kolomenskiy.png";
 import Client3 from "../assets/agama.png";
 import Client4 from "../assets/bonduelle.svg";
-import Client5 from "../assets/mbuqeo.webp";
 import Client6 from "../assets/agroeko.png";
 import Client7 from "../assets/iek.png";
-import Client8 from "../assets/polyplastic.png";
-import Client9 from "../assets/miratorg.png";
-import Client10 from "../assets/x5group.svg";
+import Client8 from "../assets/sayuzvino.png";
+import Client9 from "../assets/Inkerman.png";
+import Client10 from "../assets/texnonikol.webp";
+import Client11 from "../assets/martin.jpg";
+import Client12 from "../assets/polaris1.png";
+import Client13 from "../assets/rusargo.png";
 import Image from "next/image";
 
 const clients = [
@@ -22,12 +24,14 @@ const clients = [
     { img: Client2 },
     { img: Client3 },
     { img: Client4 },
-    { img: Client5 },
     { img: Client6 },
     { img: Client7 },
     { img: Client8 },
     { img: Client9 },
     { img: Client10 },
+    { img: Client11 },
+    { img: Client12 },
+    { img: Client13 },
 ];
 
 const ClientsCarousel = () => {

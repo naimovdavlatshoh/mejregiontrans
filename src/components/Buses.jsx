@@ -1,5 +1,5 @@
 import React from "react";
-import Bus1 from "../assets/buses.jpg";
+import Bus1 from "../assets/mainbusss2.jpg";
 
 const Buses = () => {
     return (

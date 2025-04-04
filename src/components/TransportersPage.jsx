@@ -22,22 +22,7 @@ const TransportersPage = () => {
                     <div className="flex flex-col items-center">
                         <div className="text-green-600 text-6xl">📄</div>
                         <p className="mt-4 text-xl">
-                            Договор публичной оферты на Поволжье Транс
-                        </p>
-                        <button className="mt-4 px-6 py-2 bg-pink text-white rounded-lg hover:bg-pink-500">
-                            СКАЧАТЬ
-                        </button>
-                    </div>
-                </div>
-
-                <div
-                    data-aos="zoom-in"
-                    className="w-full md:w-1/2 text-center p-4 border border-gray-200 rounded-lg shadow-lg"
-                >
-                    <div className="flex flex-col items-center">
-                        <div className="text-green-600 text-6xl">📄</div>
-                        <p className="mt-4 text-xl">
-                            Договор публичной оферты на ИП Пилипчук Н.А
+                            Договор публичной оферты на Межрегионтранс
                         </p>
                         <button className="mt-4 px-6 py-2 bg-pink text-white rounded-lg hover:bg-pink-500">
                             СКАЧАТЬ
@@ -52,10 +37,27 @@ const TransportersPage = () => {
                 className="bg-green text-black text-center p-6 mt-10 text-lg"
             >
                 <p>
-                    <a href="">+79019051111</a> |{" "}
-                    <a href="">all@mrt-trans.ru</a>
+                    Документооборот &nbsp;&nbsp;
+                    <a href="tel:+7(901) 333-69-09">+7(901) 333-69-09</a>
                 </p>
-                <p className="mt-2">©2023</p>
+                <p>
+                    По оплате &nbsp;&nbsp;
+                    <a href="tel:+7 (901) 333-93-65">+7 (901) 333-93-65</a>
+                </p>
+                <p>
+                    Заключение договоров и рассмотрение жалоб заказчиков
+                    &nbsp;&nbsp;
+                    <a href="tel:+7(901) 333-00-10">+7(901) 333-00-10</a>
+                </p>
+                <p>
+                    Заключение договоров с перевозчиками &nbsp;&nbsp;
+                    <a href="tel:+7(901) 333-98-80">+7(901) 333-98-80</a>
+                </p>
+                <p>
+                    <a href="">+79019051111</a> |<a href="">all@mrt-trans.ru</a>
+                </p>
+
+                <p className="mt-2">©2025</p>
             </footer>
         </div>
     );

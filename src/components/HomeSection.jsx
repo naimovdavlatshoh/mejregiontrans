@@ -1,5 +1,5 @@
 import React from "react";
-import MainBus from "../assets/maibback.jpg";
+import MainBus from "../assets/mainbusss.jpg";
 import Logowhite from "../assets/logowhite.jpg";
 import Image from "next/image";
 
