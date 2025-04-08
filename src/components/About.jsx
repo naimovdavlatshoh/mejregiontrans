@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import Throphy from "../assets/throphy.png";
 import Kreml from "../assets/kreml.jpg";
-import LogoBus from "../assets/logobus.jpg";
+import LogoBus from "../assets/logobuss.jpg";
 import Coloboration from "../assets/coloboration.png";
 
 export const metadata = {
