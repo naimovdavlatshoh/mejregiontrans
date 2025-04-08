@@ -9,14 +9,12 @@ const ProjectsSection = () => {
                 <>
                     <p className="mb-2">в 2023 году открыты:</p>
                     <ul className="list-disc list-inside">
-                        <li>Нижний Новгород центральный офис</li>
-                        <li>Москва</li>
-                        <li>Санкт-Петербург</li>
+                        <li>Петербург</li>
                         <li>Челябинск</li>
                         <li>Волгоград</li>
                         <li>Новосибирск</li>
                     </ul>
-                    <p className="mt-2">в планах:</p>
+
                     <ul className="list-disc list-inside">
                         <li>Екатеринбург</li>
                         <li>Краснодар</li>

@@ -5,13 +5,12 @@ const Stats = () => {
         {
             number: "4 ",
             description: "филиала в регионах России:",
-            details:
-                "г.Москва, Московская область г.Дмитров,                   г. Нефтеюганск, г. Брянск",
+            details: "г. Москва МО, г. Дмитров, г. Нефтеюганск ,г. Брянск",
         },
         {
             number: "200+",
             description: "единиц собственной техникии",
-            details: "и дописать марку Dongfeng",
+            details: "Volvo, Scania, Sitrak, Dongfeng",
         },
         {
             number: "400+",
@@ -33,7 +32,7 @@ const Stats = () => {
                                 {item.description}
                             </p>
                             {item.details && (
-                                <p className="text-lg text-gray-500 font-light mt-2">
+                                <p className="text-md text-gray-500 font-light mt-2">
                                     {item.details}
                                 </p>
                             )}

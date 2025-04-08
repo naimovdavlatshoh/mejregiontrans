@@ -1,5 +1,5 @@
 import React from "react";
-import MainBus from "../assets/geography1.jpg";
+import MainBus from "../assets/mapmain.webp";
 import Logowhite from "../assets/logowhite.jpg";
 import Image from "next/image";
 
@@ -15,7 +15,7 @@ const Geography = () => {
                 className="text-center py-6 px-6 w-full"
             >
                 <h1 className="mx-auto py-10 rounded-3xl container text-3xl lg:text-5xl  font-bold text-white bg-pink">
-                    ПЕРЕВОЗЧИКАМ
+                    ГЕОГРАФИЯ
                 </h1>
                 <Image
                     src={MainBus}
