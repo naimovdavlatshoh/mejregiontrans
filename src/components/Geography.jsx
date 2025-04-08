@@ -1,5 +1,5 @@
 import React from "react";
-import MainBus from "../assets/mapmain.webp";
+import MainBus from "../assets/mainmap-1.jpg";
 import Logowhite from "../assets/logowhite.jpg";
 import Image from "next/image";
 

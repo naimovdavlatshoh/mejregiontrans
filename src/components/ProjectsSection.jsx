@@ -7,7 +7,7 @@ const ProjectsSection = () => {
             title: "Развитие филиальной сети",
             description: (
                 <>
-                    <p className="mb-2">в 2023 году открыты:</p>
+                    <p className="mb-2">в 2024 году открыты:</p>
                     <ul className="list-disc list-inside">
                         <li>Петербург</li>
                         <li>Челябинск</li>

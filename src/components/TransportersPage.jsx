@@ -54,7 +54,7 @@ const TransportersPage = () => {
                     <a href="tel:+7(901) 333-98-80">+7(901) 333-98-80</a>
                 </p>
                 <p>
-                    <a href="">+79019051111</a> |<a href="">all@mrt-trans.ru</a>
+                    <a href="">+79019051111</a> <a href="">all@mrt-trans.ru</a>
                 </p>
 
                 <p className="mt-2">©2025</p>
