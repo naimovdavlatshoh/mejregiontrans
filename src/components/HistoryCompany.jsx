@@ -15,25 +15,19 @@ const data = [
     {
         icon: "🚛",
         title: "в 2024 году докуплено 35 новых большегрузных автомобиля",
-        description:
-            "Автопарк более 250 едениц техники» на Автопарк более 120 единиц большегрузной техники",
+        description: "",
     },
-    {
-        icon: "🏗",
-        title: "Более 50 новых строительных кранов.",
-        description: "Оборудование для высотных работ",
-    },
+
     {
         icon: "🏢",
-        title: "100+ завершенных строительных объекта» на «развитие автокомплекса (с автомастерскими боксами, мойкой, офисными помещениями)",
+        title: "Развитие авто комплекса (а автомастерскими боксами, мойкой, офисными помещениями) ",
         description: "",
     },
     {
         icon: "🚚",
         title: "200+ транспортных единиц.",
-        description: "Грузовые и пассажирские перевозки",
+        description: "",
     },
-   
 ];
 
 const HistoryCompany = () => {
@@ -52,45 +46,19 @@ const HistoryCompany = () => {
                 услуг
             </p>
 
-            <Swiper
-                effect={"coverflow"}
-                grabCursor={true}
-                spaceBetween={50}
-                loop={true}
-                autoplay={{
-                    delay: 2000,
-                    disableOnInteraction: false,
-                }}
-                coverflowEffect={{
-                    rotate: 10,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 3,
-                    slideShadows: true,
-                }}
-                pagination={{ clickable: false }}
-                modules={[EffectCoverflow, Autoplay]}
-                className="mySwiper"
-                breakpoints={{
-                    320: { slidesPerView: 1 },
-                    768: { slidesPerView: 2 },
-                    1024: { slidesPerView: 3 },
-                }}
-            >
+            <div className="flex flex-wrap justify-center gap-5">
                 {data.map((item, index) => (
-                    <SwiperSlide key={index}>
-                        <div className="w-full h-[300px] bg-pink text-white p-6 flex flex-col justify-center items-center text-center rounded-xl shadow-lg">
-                            <div className="text-[70px]">{item.icon}</div>
-                            <h3 className="mt-4 text-2xl font-semibold">
-                                {item.title}
-                            </h3>
-                            <p className="mt-2 text-white text-xl font-light">
-                                {item.description}
-                            </p>
-                        </div>
-                    </SwiperSlide>
+                    <div key={index} className=" w-full lg:w-1/4 h-[300px] bg-pink text-white p-6 flex flex-col justify-center items-center text-center rounded-xl shadow-lg">
+                        <div className="text-[70px]">{item.icon}</div>
+                        <h3 className="mt-4 text-2xl font-semibold">
+                            {item.title}
+                        </h3>
+                        <p className="mt-2 text-white text-xl font-light">
+                            {item.description}
+                        </p>
+                    </div>
                 ))}
-            </Swiper>
+            </div>
         </section>
     );
 };
