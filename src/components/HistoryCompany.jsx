@@ -20,7 +20,7 @@ const data = [
 
     {
         icon: "🏢",
-        title: "Развитие авто комплекса (а автомастерскими боксами, мойкой, офисными помещениями) ",
+        title: "Развитие авто комплекса (с автоматическими боксами, мойкой, офисными помещениями) ",
         description: "",
     },
     {
@@ -48,7 +48,10 @@ const HistoryCompany = () => {
 
             <div className="flex flex-wrap justify-center gap-5">
                 {data.map((item, index) => (
-                    <div key={index} className=" w-full lg:w-1/4 h-[300px] bg-pink text-white p-6 flex flex-col justify-center items-center text-center rounded-xl shadow-lg">
+                    <div
+                        key={index}
+                        className=" w-full lg:w-1/4 h-[300px] bg-pink text-white p-6 flex flex-col justify-center items-center text-center rounded-xl shadow-lg"
+                    >
                         <div className="text-[70px]">{item.icon}</div>
                         <h3 className="mt-4 text-2xl font-semibold">
                             {item.title}
