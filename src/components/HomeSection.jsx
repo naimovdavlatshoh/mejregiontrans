@@ -7,6 +7,7 @@ const HomeSection = () => {
     console.log(MainBus.src);
     return (
         <section
+            id="home"
             className="relative w-full min-h-screen flex items-center justify-center font-stem bg-cover bg-center bg-no-repeat"
             style={{
                 backgroundImage: `url(${MainBus.src}) `,
@@ -34,13 +35,13 @@ const HomeSection = () => {
                             className="h-10 w-[350px]"
                         />
                     </div>
-                    <a
+                    {/* <a
                         data-aos="zoom-in"
                         href="#"
                         className="inline-block text-lg bg-[#B9FE7E] font-medium text-black px-6 py-3 rounded-md shadow-md hover:bg-[#9efa4e] transition"
                     >
                         Узнать больше
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </section>

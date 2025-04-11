@@ -34,14 +34,14 @@ export default function Navbar() {
                 }`}
             >
                 <div className="container mx-auto flex items-center justify-between p-4">
-                    <a href="#" className="hidden lg:block">
+                    <a href="#home" className="hidden lg:block">
                         <Image
                             src={!isScrolled ? LogoWhite : Logo}
                             className="h-12 w-[400px]"
                             alt="logo"
                         />
                     </a>
-                    <a href="#" className="block lg:hidden">
+                    <a href="#home" className="block lg:hidden">
                         <Image
                             src={Logo1}
                             className="h-12 w-[50px]"

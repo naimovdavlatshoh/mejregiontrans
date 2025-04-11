@@ -1,10 +1,11 @@
-import { Globe, Medal, UserRoundPlus } from "lucide-react";
+import { Medal, UserRoundPlus } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import Throphy from "../assets/throphy.png";
-import Kreml from "../assets/kreml.jpg";
-import LogoBus from "../assets/logobuss.jpg";
-import Coloboration from "../assets/coloboration.png";
+import Kreml from "../assets/kremlbus.jpg";
+import LogoBus from "../assets/tonnbus.jpg";
+import Coloboration from "../assets/hands.jpg";
+import Globe from "../assets/globus.jpg";
 
 export const metadata = {
     title: "«Межрегионтранс»",
@@ -28,7 +29,7 @@ const About = () => {
                     <div>
                         <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
                             <Image
-                                className="h-[100px] object-contain"
+                                className="h-[150px] object-contain"
                                 src={Kreml}
                                 alt="no img"
                             />
@@ -41,7 +42,7 @@ const About = () => {
                     <div>
                         <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
                             <Image
-                                className="h-[100px] object-contain"
+                                className="h-[150px] object-contain"
                                 src={Throphy}
                                 alt="no img"
                             />
@@ -53,7 +54,7 @@ const About = () => {
                     <div>
                         <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
                             <Image
-                                className="h-[100px] object-contain"
+                                className="h-[150px] object-contain"
                                 src={LogoBus}
                                 alt="no img"
                             />
@@ -63,7 +64,11 @@ const About = () => {
                     </div>
                     <div>
                         <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
-                            <Globe size={100} />
+                            <Image
+                                className="h-[150px] object-contain"
+                                src={Globe}
+                                alt="no img"
+                            />
                         </div>
 
                         <p className="mt-4  font-light">
@@ -73,7 +78,7 @@ const About = () => {
                     <div>
                         <div className="w-full flex justify-center color-green mb-5 lg:mb-10">
                             <Image
-                                className="h-[100px] object-contain"
+                                className="h-[150px] object-contain"
                                 src={Coloboration}
                                 alt="no img"
                             />

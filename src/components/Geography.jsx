@@ -9,11 +9,7 @@ const Geography = () => {
             id="geography"
             className=" w-full  flex items-center justify-center font-stem "
         >
-            <header
-                id="transporters"
-                data-aos="zoom-in"
-                className="text-center py-6 px-6 w-full"
-            >
+            <header data-aos="zoom-in" className="text-center py-6 px-6 w-full">
                 <h1 className="mx-auto py-10 rounded-3xl container text-3xl lg:text-5xl  font-bold text-white bg-pink">
                     ГЕОГРАФИЯ
                 </h1>

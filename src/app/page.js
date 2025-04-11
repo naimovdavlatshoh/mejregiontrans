@@ -18,6 +18,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Geography from "@/components/Geography";
+import CardsSection from "@/components/HistoryCompany";
 
 export default function Home() {
     useEffect(() => {
@@ -38,7 +39,7 @@ export default function Home() {
             <TransportSection />
             <ProjectsSection />
             <ClientsCarousel />
-            <HistoryCompany />
+            <CardsSection />
             <Buses />
             <Specialization />
             <TransportersPage />
