@@ -50,7 +50,7 @@ export default function Navbar() {
                     </a>
 
                     <nav
-                        className={`hidden text-lg lg:flex gap-6 transition-colors ${
+                        className={`hidden text-lg lg:flex gap-3 transition-colors ${
                             isScrolled ? "text-gray-800" : "text-gray-200"
                         }`}
                     >
@@ -71,6 +71,9 @@ export default function Navbar() {
                             className="hover:text-[#B9FE7E]"
                         >
                             Перевозчикам
+                        </a>
+                        <a href="#drivers" className="hover:text-[#B9FE7E]">
+                            Водителям
                         </a>
                         <a href="#contacts" className="hover:text-[#B9FE7E]">
                             Контакты

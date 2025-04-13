@@ -16,48 +16,51 @@ const data = [
     {
         icon: <FaLink size={40} />,
         title: "Ссылка на дорожную сеть",
-        pdf: "pdfs/item.pdf",
+        pdf: "https://dornet.ru/map",
     },
     {
         icon: <FaCarCrash size={40} />,
         title: "Инструкция «Что делать при ДТП»",
-        pdf: "pdfs/item.pdf",
+        pdf: "pdfs/dtp.pdf",
     },
     {
         icon: <FaFileAlt size={40} />,
         title: "Инструкция по заполнению распечаток тахографа",
-        pdf: "pdfs/item.pdf",
+        pdf: "pdfs/dtp.pdf",
     },
     {
         icon: <FaTruck size={40} />,
         title: "Инструкция по эксплуатации «Платона»",
-        pdf: "pdfs/item.pdf",
+        pdf: "pdfs/dtp.pdf",
     },
     {
         icon: <FaRoad size={40} />,
         title: "Инструкция по установке и эксплуатации «Транспондера»",
-        pdf: "pdfs/item.pdf",
+        pdf: "pdfs/dtp.pdf",
     },
     {
         icon: <FaWarehouse size={40} />,
         title: "Правила поведения на территории клиента",
-        pdf: "pdfs/item.pdf",
+        pdf: "pdfs/dtp.pdf",
     },
     {
         icon: <FaRegQuestionCircle size={40} />,
         title: "Инструкция «когда загорается АБС тягача и прицепа?»",
-        pdf: "pdfs/item.pdf",
+        pdf: "pdfs/dtp.pdf",
     },
     {
         icon: <FaClipboardList size={40} />,
         title: "Тест по работе в компании",
-        pdf: "pdfs/item.pdf",
+        pdf: "pdfs/dtp.pdf",
     },
 ];
 
 const HistoryCompany = () => {
     return (
-        <section className="py-12 bg-white text-center font-stem px-6">
+        <section
+            id="drivers"
+            className="py-12 bg-white text-center font-stem px-6"
+        >
             <h2
                 data-aos="zoom-in"
                 className="container mx-auto py-10 rounded-3xl text-4xl md:text-5xl font-bold text-white mb-16 bg-black flex items-center justify-center"
