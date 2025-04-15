@@ -26,32 +26,32 @@ const data = [
     {
         icon: <FaFileAlt size={40} />,
         title: "Инструкция по заполнению распечаток тахографа",
-        pdf: "pdfs/dtp.pdf",
+        pdf: "pdfs/tachograph1_merged.pdf",
     },
     {
         icon: <FaTruck size={40} />,
         title: "Инструкция по эксплуатации «Платона»",
-        pdf: "pdfs/dtp.pdf",
+        pdf: "pdfs/platon1_merged.pdf",
     },
     {
         icon: <FaRoad size={40} />,
         title: "Инструкция по установке и эксплуатации «Транспондера»",
-        pdf: "pdfs/dtp.pdf",
+        pdf: "pdfs/transponder1_merged.pdf",
     },
     {
         icon: <FaWarehouse size={40} />,
         title: "Правила поведения на территории клиента",
-        pdf: "pdfs/dtp.pdf",
+        pdf: "pdfs/new_territory.pdf",
     },
     {
         icon: <FaRegQuestionCircle size={40} />,
         title: "Инструкция «когда загорается АБС тягача и прицепа?»",
-        pdf: "pdfs/dtp.pdf",
+        pdf: "pdfs/abc1.pdf",
     },
     {
         icon: <FaClipboardList size={40} />,
         title: "Тест по работе в компании",
-        pdf: "pdfs/dtp.pdf",
+        pdf: "https://forms.yandex.ru/u/67fd569d505690c059b1c941/",
     },
 ];
 
