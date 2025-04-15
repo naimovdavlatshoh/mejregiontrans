@@ -66,15 +66,16 @@ export default function Navbar() {
                         <a href="#clients" className="hover:text-[#B9FE7E]">
                             Наши клиенты
                         </a>
+                        <a href="#drivers" className="hover:text-[#B9FE7E]">
+                            Водителям
+                        </a>
                         <a
                             href="#transporters"
                             className="hover:text-[#B9FE7E]"
                         >
                             Перевозчикам
                         </a>
-                        <a href="#drivers" className="hover:text-[#B9FE7E]">
-                            Водителям
-                        </a>
+
                         <a href="#contacts" className="hover:text-[#B9FE7E]">
                             Контакты
                         </a>
@@ -126,6 +127,13 @@ export default function Navbar() {
                             onClick={() => setIsOpen(false)}
                         >
                             Наши клиенты
+                        </a>
+                        <a
+                            href="#drivers"
+                            className="hover:text-green-400"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Водителям
                         </a>
                         <a
                             href="#transporters"
