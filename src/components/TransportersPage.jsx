@@ -26,7 +26,7 @@ const TransportersPage = () => {
                             Договор перевозки грузов автомобильным транспортом
                         </p>
                         <a
-                            href="/download.docx"
+                            href="/Договор_МРТ _Перевозчик _шаблон.docx"
                             download
                             className="mt-4 inline-block px-6 py-2 bg-pink text-white rounded-lg hover:bg-pink-500"
                         >
