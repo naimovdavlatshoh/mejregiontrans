@@ -40,8 +40,9 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Your Website Title",
-        description: "Your website description with relevant keywords.",
+        title: "Профессиональные транспортно-экспедиционные услуги | ООО «Межрегионтранс»",
+        description:
+            "Компания ООО «Межрегионтранс» предоставляет транспортно-экспедиционные услуги с 2016 года. Надежная доставка грузов, включая товары с температурным режимом..",
         images: ["https://yourwebsite.com/twitter-image.jpg"],
     },
 };
