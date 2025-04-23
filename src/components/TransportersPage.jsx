@@ -42,25 +42,26 @@ const TransportersPage = () => {
                 className="bg-green text-black text-center p-6 mt-10 text-lg"
             >
                 <p>
-                    Документооборот &nbsp;&nbsp;
-                    <a href="tel:+7(901) 333-69-09">+7(901) 333-69-09</a>
+                    Документооборот &nbsp;
+                    <a href="">+7(901)333-69-09</a> &nbsp; почта: &nbsp;
+                    <a href="">docs2@mrt-trans.ru</a>
                 </p>
                 <p>
-                    По оплате &nbsp;&nbsp;
-                    <a href="tel:+7 (901) 333-93-65">+7 (901) 333-93-65</a>
+                    По оплате &nbsp;
+                    <a href="">+7 (901) 333-93-65</a>&nbsp; почта: &nbsp;
+                    <a href="">buh1@mrt-trans.ru</a>
                 </p>
                 <p>
-                    Заключение договоров и рассмотрение жалоб заказчиков
-                    &nbsp;&nbsp;
-                    <a href="tel:+7(901) 333-00-10">+7(901) 333-00-10</a>
+                    Заключение договоров и рассмотрение жалоб &nbsp;
+                    <a href="">+7(901) 333-00-10</a>
+                    &nbsp; почта: &nbsp;
+                    <a href="">otdel@mrt-trans.ru</a>
                 </p>
                 <p>
-                    Заключение договоров с перевозчиками &nbsp;&nbsp;
+                    Заключение договоров с перевозчиками &nbsp;
                     <a href="tel:+7(901) 333-98-80">+7(901) 333-98-80</a>
-                </p>
-                <p>
-                    <a href="tel:+79019051111">+79019051111</a> &nbsp;
-                    <a href="mailto:all@mrt-trans.ru">all@mrt-trans.ru</a>
+                    &nbsp; почта: &nbsp;
+                    <a href="mailto:otdel@mrt-trans.ru">manager@mrt-trans.ru</a>
                 </p>
 
                 <p className="mt-2">©2025</p>

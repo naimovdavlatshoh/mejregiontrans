@@ -9,7 +9,7 @@ const Stats = () => {
         },
         {
             number: "200+",
-            description: "единиц собственной техникии",
+            description: "единиц собственной техники",
             details: "Volvo, Scania, Sitrak, Dongfeng",
         },
         {

@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import Throphy from "../assets/throphy.png";
 import Kreml from "../assets/kremlbus.jpg";
-import LogoBus from "../assets/tonnbus.jpg";
+import LogoBus from "../assets/compbuss.jpg";
 import Coloboration from "../assets/hands.jpg";
 import Globe from "../assets/globus.jpg";
 
@@ -35,8 +35,8 @@ const About = () => {
                             />
                         </div>
                         <p className="mt-4  font-light">
-                            на рынке логистических услуг города Москвы и
-                            Московской области
+                            2016 года на рынке логистических услуг города Москвы
+                            и Московской области
                         </p>
                     </div>
                     <div>
